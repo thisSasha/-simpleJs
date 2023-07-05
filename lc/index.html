@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+    <style>
+        ::-webkit-scrollbar {
+            background-color: transparent;
+            width: 0.6vw;
+            max-width: 12px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            color: pink;
+            background: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+            border-radius: 100px;
+        }
+
+        body {
+            margin-top: 0;
+            background-color: black;
+        }
+
+        ul {
+            width: 100%;
+        }
+
+        .container {
+            width: 70vw;
+            max-width: 1200px;
+            min-width: 700px;
+            color: white;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 24px;
+            background-color: rgb(28, 28, 28);
+            border-radius: 0 0 20px 20px;
+        }
+
+        h2 {
+            margin-bottom: 2px;
+        }
+
+        .parameters li {
+            margin-bottom: 40px;
+        }
+
+        pre.hljs {
+            position: relative;
+            max-width: 80%;
+            font-size: 0.8em;
+            margin-bottom: 12px;
+        }
+
+        pre::-webkit-scrollbar{
+            height: 1vh;
+        }
+    </style>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Документация listConstructor</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Документация listConstructor</h1>
+
+        <h2>Начальный комплект:</h2>
+        <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(0, 0, 0); color: rgb(248, 248, 248);"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">import</span> * <span class="hljs-keyword" style="color: rgb(150, 203, 254);">as</span> lc <span class="hljs-keyword" style="color: rgb(150, 203, 254);">from</span> <span class="hljs-string" style="color: rgb(168, 255, 96);">"thissasha.github.io/shablons/listConstructor.js"</span>
+<span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> myList = <span class="hljs-keyword" style="color: rgb(150, 203, 254);">new</span> lc.List({
+    parent: <span class="hljs-built_in">document</span>.body, <span class="hljs-comment" style="color: rgb(124, 124, 124);">//Ваш родитель объекта. Обязательно</span>
+});</pre>
+
+        <h2>Параметры:</h2>
+        <ul class="parameters">
+            <li>
+                <p class="parameter">style</p>
+                <pre class="hljs"
+                    style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(0, 0, 0); color: rgb(248, 248, 248);"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> myList = <span class="hljs-keyword" style="color: rgb(150, 203, 254);">new</span> lc.List({
+    parent: <span class="hljs-built_in">document</span>.body, <span class="hljs-comment" style="color: rgb(124, 124, 124);">//Ваш родитель объекта. Обязательно</span>
+    style: [<span class="hljs-string" style="color: rgb(168, 255, 96);">"background: white; color: white;"</span>, <span class="hljs-string" style="color: rgb(168, 255, 96);">"text-decoration: underline;"</span>], <span class="hljs-comment" style="color: rgb(124, 124, 124);">//Стили ["стили ul", "стили li"]</span>
+});</pre>
+                <p class="values">["style: value;", "style: value;"]</p>
+            </li>
+            <li>
+                <p class="parameter">articlesParams</p>
+                <pre class="hljs"
+                    style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(0, 0, 0); color: rgb(248, 248, 248);"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">import</span> * <span class="hljs-keyword" style="color: rgb(150, 203, 254);">as</span> lc <span class="hljs-keyword" style="color: rgb(150, 203, 254);">from</span> <span class="hljs-string" style="color: rgb(168, 255, 96);">"https://thissasha.github.io/shablons/listConstructor.js"</span>
+    <span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> myList = <span class="hljs-keyword" style="color: rgb(150, 203, 254);">new</span> lc.List({
+    parent: <span class="hljs-built_in">document</span>.body, <span class="hljs-comment" style="color: rgb(124, 124, 124);">//Ваш родитель объекта. Обязательно</span>
+    style: [<span class="hljs-string" style="color: rgb(168, 255, 96);">"background: white; color: white;"</span>, <span class="hljs-string" style="color: rgb(168, 255, 96);">"text-decoration: underline;"</span>], <span class="hljs-comment" style="color: rgb(124, 124, 124);">//Стили ["стили ul", "стили li"]</span>
+    articleParams: {<span class="hljs-string" style="color: rgb(168, 255, 96);">'data-param'</span>:<span class="hljs-string" style="color: rgb(168, 255, 96);">'ps'</span>}, <span class="hljs-comment" style="color: rgb(124, 124, 124);">//Параметры li</span>
+                    });</pre>
+                <p class="values">{param: value}</p>
+            </li>
+            <li>
+                <p class="parameter"></p>
+
+                <p class="values"></p>
+            </li>
+        </ul>
+    </div>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
