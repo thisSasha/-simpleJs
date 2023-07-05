@@ -5,5 +5,5 @@ MMath : {<br />
 ㅤㅤㅤMMath.roundUp(18, 10) || Math.roundUp(18) // Округление до 10 >> 20<br />
 ㅤㅤㅤMMath.roundUp(17, [0, 100]) // Округление от и до >> 0<br />
 ㅤㅤ}<br />
-ㅤㅤMMath<br />
+ㅤㅤMMath.randomNumber(1, 10) // Рандом от и до >> 5<br />
 }<br />
