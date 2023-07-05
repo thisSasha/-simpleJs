@@ -7,14 +7,15 @@ MMath : {<br />
 ㅤㅤ}<br />
 ㅤㅤMMath.randomNumber(1, 10) // Рандом от и до >> 5<br />
 }<br />
-
-
-CColor: {
-ㅤㅤCColor.hexToRgb('#ffffff) // hex to rgb >> {r:255, g:255, b:255, rgb:'rgb(255,255,255)}
-ㅤㅤCColor.rgbToHex(255, 255, 255) // rgb to hex >> '#ffffff'
-ㅤㅤCColor.randomColor: { // Рандомный цвет в hex
-ㅤㅤㅤ('White') // От белого до чёрного
-ㅤㅤㅤ('Green') // Зелёный оттенок
-ㅤㅤㅤ('Blue') // Синий оттенок
-ㅤㅤㅤ('Red') // Красный оттенок
-ㅤㅤㅤ() // Рандом цвет
+<br />
+<br />
+CColor: {<br />
+ㅤㅤCColor.hexToRgb('#ffffff) // hex to rgb >> {r:255, g:255, b:255, rgb:'rgb(255,255,255)}<br />
+ㅤㅤCColor.rgbToHex(255, 255, 255) // rgb to hex >> '#ffffff'<br />
+ㅤㅤCColor.randomColor: { // Рандомный цвет в hex<br />
+ㅤㅤㅤ('White') // От белого до чёрного<br />
+ㅤㅤㅤ('Green') // Зелёный оттенок<br />
+ㅤㅤㅤ('Blue') // Синий оттенок<br />
+ㅤㅤㅤ('Red') // Красный оттенок<br />
+ㅤㅤㅤ() // Рандом цвет<br />
+<br />
