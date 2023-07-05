@@ -1,6 +1,6 @@
-HTML: index.html   (+/- так)  
-<script src="..../index.js">  
-  
-  
-JS: index.js   (В точности так)  
-import {MMath, CColor, HHelp} from 'https://thissasha.github.io/simpleJs/ssimple/ssimple.js'  
+HTML: index.html   (+/- так) <br />
+<script src="..../index.js"> <br />
+ <br />
+ <br />
+JS: index.js   (В точности так) <br />
+import {MMath, CColor, HHelp} from 'https://thissasha.github.io/simpleJs/ssimple/ssimple.js' <br />
