@@ -1,4 +1,4 @@
-HTML: index.html   (+/- так) <br />
+HTML: index.html   (+/- так)
 <script src="..../index.js"> <br />
  <br />
  <br />
