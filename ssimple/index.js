@@ -1,4 +1,4 @@
-import { MMath, CColor, HHelp } from "./ssimple.js";
+import { MMath, CColor, HHelp } from "https://thissasha.github.io/simpleJs/ssimple/ssimple.js";
 
 console._log = console.log;
 
