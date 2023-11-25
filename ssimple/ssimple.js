@@ -1,4 +1,4 @@
-export { MMath, CColor, HHelp }
+export default { MMath, CColor, HHelp }
 let MMath = Math;
 MMath.middle = function (nums, type) {
     let ob = 0;
