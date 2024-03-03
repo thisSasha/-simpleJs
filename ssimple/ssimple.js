@@ -1,4 +1,4 @@
-export default { MMath, CColor, HHelp }
+
 let MMath = Math;
 MMath.middle = function (nums, type) {
     let ob = 0;
@@ -113,3 +113,9 @@ CColor.getRandomColor = function (type) {
 
 
 let HHelp = {};
+
+
+
+
+
+export default { MMath, CColor, HHelp }
