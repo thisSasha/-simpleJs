@@ -117,5 +117,5 @@ let HHelp = {};
 
 
 
-
+export { MMath, CColor, HHelp }
 export default { MMath, CColor, HHelp }
